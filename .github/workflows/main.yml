@@ -11,15 +11,15 @@ jobs:
       - name: Lint vote Dockerfile
         uses: brpaz/hadolint-action@master
         with:
-          dockerfile: "vote/Dockerfile"
+          dockerfile: vote/Dockerfile
         
       - name: Lint worker Dockerfile
         uses: brpaz/hadolint-action@master
         with:
-          dockerfile: "worker/Dockerfile"
+          dockerfile: worker/Dockerfile
           
           
       - name: Lint result Dockerfile
         uses: brpaz/hadolint-action@master
         with:
-          dockerfile: "result/Dockerfile"
+          dockerfile: result/Dockerfile
